@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/*.csv
+data/*.csv
+models/*.joblib
+reports/*.csv
+reports/*.png
+!models/loan_approval_model.joblib
+!reports/model_comparison.csv
+!reports/random_forest_importance.csv
+!reports/dataset_summary.json
