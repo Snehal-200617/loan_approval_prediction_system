@@ -11,3 +11,7 @@ reports/*.png
 !reports/model_comparison.csv
 !reports/random_forest_importance.csv
 !reports/dataset_summary.json
+
+# The project datasets are intentional tracked inputs.
+!data/raw/train.csv
+!data/test_Y3wMUE5_7gLdaTN.csv
