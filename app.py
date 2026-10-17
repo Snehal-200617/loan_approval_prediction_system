@@ -16,7 +16,7 @@ REPORTS_PATH = PROJECT_ROOT / "reports"
 SUMMARY_PATH = REPORTS_PATH / "dataset_summary.json"
 
 st.set_page_config(
-    page_title="LoanIQ | Decision Intelligence",
+    page_title="Loan_Scope| Decision Intelligence",
     page_icon="◉",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -97,7 +97,7 @@ def friendly_feature_name(raw_name: str) -> str:
 
 st.sidebar.markdown(
     '<div class="brand"><div class="brand-mark">L</div><div>'
-    '<div class="brand-title">LoanIQ</div><div class="brand-subtitle">DECISION INTELLIGENCE</div>'
+    '<div class="brand-title">Loan_Scope</div><div class="brand-subtitle">DECISION INTELLIGENCE</div>'
     '</div></div>',
     unsafe_allow_html=True,
 )
